@@ -165,7 +165,7 @@ export default function About() {
               Your Trusted Partner in Property Management and Real Estate
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              For over 15 years, PetitPetit Enterprise has been at the forefront of Lagos&apos;s real estate market. We
+              PetitPetit Enterprise has been at the forefront of Lagos&apos;s real estate market. We
               specialize in affordable luxury properties for young professionals and growing families, offering homes in
               the <span className="text-gold font-semibold">₦50M to ₦200M</span> range.
             </p>
