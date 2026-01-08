@@ -4,27 +4,28 @@ import { useEffect, useRef, useState } from "react"
 import { CheckCircle2, Star, TrendingUp, Users, Home, Award } from "lucide-react"
 
 const highlights = [
-  "Premium locations across Lagos Island, Victoria Island & Lekki",
+  "Premium locations across Lagos, Abuja, Ondo, Ibadan",
   "Transparent pricing with no hidden fees",
   "Dedicated support throughout your property journey",
   "Verified properties with complete documentation",
+  "All FCDA approved"
 ]
 
 const miniTestimonials = [
   {
-    name: "Adebayo Ogundimu",
+    name: "Monebi Gbenga",
     role: "Business Owner",
     text: "PetitPetit made finding our family home effortless. Their team understood exactly what we needed.",
     rating: 5,
   },
   {
-    name: "Ngozi Eze",
+    name: "Akinlalu Dotun",
     role: "Tech Professional",
     text: "Exceptional service! They helped me find the perfect apartment within my budget in Lekki Phase 1.",
     rating: 5,
   },
   {
-    name: "Olumide Adeyemi",
+    name: "Leonard Onyekwere",
     role: "Young Professional",
     text: "Professional, responsive, and genuinely cared about finding me the right property. Highly recommend!",
     rating: 5,
@@ -165,15 +166,16 @@ export default function About() {
               Your Trusted Partner in Property Management and Real Estate
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              PetitPetit Enterprise has been at the forefront of Lagos&apos;s real estate market. We
-              specialize in affordable luxury properties for young professionals and growing families, offering homes in
-              the <span className="text-gold font-semibold">₦50M to ₦200M</span> range.
+              In just one year, PetitPetit Enterprise has become a real go-to in Nigeria&apos;s buzzing real estate world.
+              We specialize in affordable luxury—from building custom homes to renting, leasing, and managing properties
+              for young professionals and growing families, all in the <span className="text-gold font-semibold">₦1M to ₦200M</span> range.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-8">
-              Our dedicated team combines deep market knowledge with personalized service, ensuring every client finds
-              not just a property, but a home that fits their lifestyle and aspirations. We believe luxury should be
-              accessible.
+            <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+              Our tight-knit team knows Nigeria like the back of our hands and treats every client like family, making sure you find not just
+              a property, but a spot that feels right for your life. Whether it&apos;s your dream buy, a smooth lease, or hands-off management,
+              we keep it personal and straightforward. Luxury should be for everyone—that&apos;s what drives us.
             </p>
+
 
             {/* Highlights */}
             <div className="space-y-4 mb-10">
