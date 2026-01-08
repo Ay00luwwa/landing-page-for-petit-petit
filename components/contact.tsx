@@ -13,22 +13,22 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: [""],
+    details: ["FHA Kapwa,Opposite Springville Estate, Lugbe, Abuja"],
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: ["+234 801 234 5678", "+234 802 345 6789"],
+    details: ["+234 907 309 6453", "+234 704 247 8111"],
   },
   {
     icon: Mail,
     title: "Email Us",
-    details: ["info@petitpetit.ng", "sales@petitpetit.ng"],
+    details: ["petitpetitenterprise@gmail.com"],
   },
   {
     icon: Clock,
     title: "Working Hours",
-    details: ["Mon - Fri: 9AM - 6PM", "Sat: 10AM - 4PM"],
+    details: ["Mon - Fri: 9AM - 5PM", "Sat: 10AM - 4PM"],
   },
 ]
 

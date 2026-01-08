@@ -22,7 +22,7 @@ const reasons = [
   {
     icon: BadgeCheck,
     title: "Licensed Experts",
-    description: "Work with certified real estate professionals with deep knowledge of the Lagos market.",
+    description: "Work with certified real estate professionals with deep knowledge of the market.",
   },
   {
     icon: TrendingUp,
@@ -69,7 +69,7 @@ export default function WhyChooseUs() {
             The PetitPetit Advantage
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            We go beyond just listing properties. Here&apos;s why thousands of Lagos residents trust us with their real
+            We go beyond just listing properties. Here&apos;s why residents trust us with their real
             estate journey.
           </p>
         </div>

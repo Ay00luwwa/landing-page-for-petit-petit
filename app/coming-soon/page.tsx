@@ -13,7 +13,7 @@ export default function ComingSoon() {
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isLoaded, setIsLoaded] = useState(false)
   const [countdown, setCountdown] = useState({
-    days: 45,
+    days: 52,
     hours: 12,
     minutes: 30,
     seconds: 0,
@@ -53,7 +53,7 @@ export default function ComingSoon() {
     {
       icon: Building2,
       title: "Expanded Listings",
-      description: "More properties across Lagos",
+      description: "More properties across Nigeria",
     },
     {
       icon: Key,
@@ -236,7 +236,7 @@ export default function ComingSoon() {
           <p className="text-sm text-muted-foreground">
             Questions? Contact us at{" "}
             <a href="mailto:info@petitpetit.ng" className="text-primary hover:text-gold transition-colors">
-              info@petitpetit.ng
+              petitpetitenterprise@gmail.com
             </a>
           </p>
         </footer>

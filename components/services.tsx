@@ -9,7 +9,7 @@ const services = [
     icon: Home,
     title: "Buy Property",
     description:
-      "Find your perfect home from our extensive portfolio of verified properties across Lagos. We guide you through every step of the purchase process.",
+      "Find your perfect home from our extensive portfolio of verified properties across Nigeria. We guide you through every step of the purchase process.",
     color: "from-primary to-primary/80",
   },
   {

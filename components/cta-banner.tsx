@@ -57,7 +57,7 @@ export default function CTABanner() {
               size="lg"
               className="bg-card text-primary hover:bg-gold hover:text-primary-foreground shadow-2xl transition-all duration-300 group text-base px-8 py-6"
             >
-              <a href="#properties">
+              <a href="coming-soon">
                 Browse Properties
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
@@ -75,9 +75,6 @@ export default function CTABanner() {
             </Button>
           </div>
 
-          <p className="text-primary-foreground/60 text-sm mt-8">
-            Over 500+ families found their dream homes through PetitPetit in 2024
-          </p>
         </div>
       </div>
     </section>
