@@ -64,8 +64,12 @@ export default function Footer() {
           {/* Brand Column */}
           <div>
             <a href="#hero" className="flex items-center gap-3 mb-6 group">
-              <div className="w-12 h-12 bg-primary-foreground rounded-xl flex items-center justify-center group-hover:bg-gold transition-colors duration-300">
-                <Home className="w-6 h-6 text-primary" />
+              <div className="w-12 h-12 bg-primary-foreground rounded-xl flex items-center justify-center transition-colors duration-300">
+                <img
+              alt="PetitPetit Logo"
+              src="/logo.png"
+              className="w-30 h-30 object-contain"
+              />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold font-serif">PetitPetit</span>
@@ -74,7 +78,7 @@ export default function Footer() {
             </a>
             <p className="text-primary-foreground/80 text-sm leading-relaxed mb-6">
               Your trusted partner in finding affordable luxury homes in Lagos. We&apos;ve been helping families and
-              professionals find their dream properties since 2009.
+              professionals find their dream properties.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((social) => (
@@ -143,18 +147,18 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
                 <span className="text-primary-foreground/80 text-sm">
-                  Plot 123, Admiralty Way
+                  FHA Kapwa, Opposite Springville Estate
                   <br />
-                  Victoria Island, Lagos
+                  Lugbe, Abuja
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-gold flex-shrink-0" />
                 <a
-                  href="tel:+2348012345678"
+                  href="tel:+2349073096453"
                   className="text-primary-foreground/80 text-sm hover:text-gold transition-colors"
                 >
-                  +234 801 234 5678
+                  +234 907 309 6453
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -163,13 +167,13 @@ export default function Footer() {
                   href="mailto:info@petitpetit.ng"
                   className="text-primary-foreground/80 text-sm hover:text-gold transition-colors"
                 >
-                  info@petitpetit.ng
+                  petitpetitenterprise@gmail.com
                 </a>
               </li>
             </ul>
 
             {/* Locations Served */}
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <h5 className="font-semibold text-sm mb-3">Locations We Serve</h5>
               <div className="flex flex-wrap gap-2">
                 {locations.map((location) => (
@@ -182,7 +186,7 @@ export default function Footer() {
                   </Link>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -220,7 +224,7 @@ export default function Footer() {
               © {new Date().getFullYear()} PetitPetit Enterprise. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
-              <span className="text-primary-foreground/50 text-xs">Designed with excellence for Lagos homebuyers</span>
+              <span className="text-primary-foreground/50 text-xs">Designed with excellence for homebuyers</span>
               <Button
                 variant="ghost"
                 size="icon"

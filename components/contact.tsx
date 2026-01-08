@@ -252,7 +252,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-semibold text-foreground text-sm">Head Office</p>
-                      <p className="text-muted-foreground text-xs">Victoria Island, Lagos</p>
+                      <p className="text-muted-foreground text-xs">Lugbe, Abuja</p>
                     </div>
                   </div>
                 </div>

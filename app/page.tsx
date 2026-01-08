@@ -23,7 +23,7 @@ export default function Home() {
       <WhyChooseUs />
       <Services />
       <CTABanner />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <FAQ />
       <Newsletter />
       <Contact />

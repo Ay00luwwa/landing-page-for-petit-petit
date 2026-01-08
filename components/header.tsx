@@ -10,8 +10,8 @@ const navLinks = [
   { name: "About", href: "#about" },
   { name: "Properties", href: "#properties" },
   { name: "Services", href: "#services" },
-  { name: "Testimonials", href: "#testimonials" },
-  { name: "Contact", href: "#contact" },
+  // { name: "Testimonials", href: "#testimonials" },
+  // { name: "Contact", href: "#contact" },
 ]
 
 const externalLinks = [
@@ -37,7 +37,7 @@ export default function Header() {
         isScrolled ? "glass-card shadow-lg py-2" : "bg-transparent py-4"
       }`}
     >
-      <nav className="container mx-auto px-4 lg:px-8">
+      <nav className="container mx-auto px-4 lg:px-4">
         <div className="flex items-center justify-between">
           <a href="#hero" className="flex items-center gap-3 group" aria-label="PetitPetit Enterprise Home">
             <div className="w-20 h-20 bg-primary rounded-xl flex items-center justify-center transition-colors duration-300 shadow-lg">
