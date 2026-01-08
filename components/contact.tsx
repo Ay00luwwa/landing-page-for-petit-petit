@@ -13,7 +13,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: ["Plot 123, Admiralty Way", "Victoria Island, Lagos"],
+    details: [""],
   },
   {
     icon: Phone,
@@ -263,7 +263,7 @@ export default function Contact() {
       </div>
 
       <a
-        href="https://wa.me/2348012345678?text=Hello%2C%20I'm%20interested%20in%20your%20properties"
+        href="https://wa.me/2347042478111?text=Hello%2C%20I'm%20interested%20in%20your%20properties"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 animate-pulse-glow"

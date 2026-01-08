@@ -14,19 +14,19 @@ const highlights = [
 const miniTestimonials = [
   {
     name: "Monebi Gbenga",
-    role: "Business Owner",
+    role: "Fashion Designer",
     text: "PetitPetit made finding our family home effortless. Their team understood exactly what we needed.",
     rating: 5,
   },
   {
     name: "Akinlalu Dotun",
-    role: "Tech Professional",
-    text: "Exceptional service! They helped me find the perfect apartment within my budget in Lekki Phase 1.",
+    role: "Business Owner",
+    text: "Exceptional service! They helped me find the perfect apartment within my budget in Obaadeshida Estate.",
     rating: 5,
   },
   {
     name: "Leonard Onyekwere",
-    role: "Young Professional",
+    role: "Tech Professional",
     text: "Professional, responsive, and genuinely cared about finding me the right property. Highly recommend!",
     rating: 5,
   },

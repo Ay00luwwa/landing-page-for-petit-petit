@@ -7,17 +7,13 @@ const faqs = [
   {
     question: "What is the price range of properties you offer?",
     answer:
-      "We specialize in affordable luxury properties ranging from ₦50 million to ₦200 million. This includes apartments, duplexes, and standalone houses across premium Lagos locations like Victoria Island, Ikoyi, Lekki, and Banana Island.",
+      "We specialize in affordable luxury properties ranging from ₦1 million to ₦200 million. This includes apartments, duplexes, and standalone houses across premium locations like Abuja, Lagos, Ibadan, Ondo, Ogun State.",
   },
-  {
-    question: "Do you offer mortgage assistance?",
-    answer:
-      "Yes! We have partnerships with leading Nigerian banks including First Bank, GTBank, Access Bank, and others. Our team helps you navigate the mortgage application process and secure competitive interest rates tailored to your financial situation.",
-  },
+
   {
     question: "How do I schedule a property viewing?",
     answer:
-      "You can schedule a viewing by filling out our contact form, calling us directly at +234 801 234 5678, or sending us a WhatsApp message. We offer flexible viewing times including weekends and can arrange virtual tours for out-of-state clients.",
+      "You can schedule a viewing by filling out our contact form, calling us directly at +234 9073096453, or sending us a WhatsApp message. We offer flexible viewing times including weekends and can arrange virtual tours for out-of-state clients.",
   },
   {
     question: "What documents do I need to purchase a property?",
